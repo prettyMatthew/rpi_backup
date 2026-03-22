@@ -1,0 +1,2 @@
+cloudflared tunnel run 93b149be-0560-4f64-9bc3-99ce3310efc0
+gunicorn -w 4 -b 0.0.0.0:5000 server:app
